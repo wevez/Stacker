@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Stacker">
         <activity
+            android:name=".ScrambleSetting"
+            android:exported="false" />
+        <activity
+            android:name=".TargetSetting"
+            android:exported="false" />
+        <activity
             android:name=".SelectionTheme"
             android:exported="false" />
         <activity

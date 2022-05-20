@@ -4,11 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SelectionTheme extends AppCompatActivity {
+public class TargetSetting extends AbstractSettingActivity {
+
+    /*
+    Settings for target activity
+     */
+
+    public TargetSetting() {
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_selection_theme);
+        setContentView(R.layout.activity_target_setting);
     }
 }

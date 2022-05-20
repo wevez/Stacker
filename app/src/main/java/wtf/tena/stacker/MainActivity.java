@@ -16,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
         themeView.setOnItemClickListener((adapterView, view, i, l) -> {
             switch ((String) adapterView.getItemAtPosition(i)) {
                 case "Scramble英文法":
-                    final Intent scrambleIntent = new Intent(MainActivity.this, ThemeSetting.class);
+                    final Intent scrambleIntent = new Intent(MainActivity.this, TargetSetting.class);
                     scrambleIntent.putExtra("theme", "target");
                     startActivity(scrambleIntent);
                     break;
                 case "Target1900":
-                    final Intent targetIntent = new Intent(MainActivity.this, ThemeSetting.class);
+                    final Intent targetIntent = new Intent(MainActivity.this, ScrambleSetting.class);
                     targetIntent.putExtra("theme", "scramble");
                     startActivity(targetIntent);
                     break;
