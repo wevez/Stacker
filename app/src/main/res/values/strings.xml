@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stacker</string>
+    <string name="theme">単語帳</string>
+    <string-array name="themes">
+        <item>Target1900</item>
+        <item>Scramble英文法</item>
+    </string-array>
+    <string name="custom_option">カスタムオプション</string>
+    <string name="random_proposing">ランダム出題</string>
+    <string name="proposing_range">出題範囲</string>
+    <string name="proposing_type">出題タイプ</string>
+    <string-array name="proposing_values">
+        <item>四択</item>
+        <item>単語入力</item>
+    </string-array>
+    <string name="start">始める</string>
+</resources>
