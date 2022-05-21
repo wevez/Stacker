@@ -1,7 +1,5 @@
 package wtf.tena.stacker.setting;
 
-import wtf.tena.stacker.AbstractSettingActivity;
-
 public class DoubleSetting extends AbstractSetting {
 
     private static final String NONE_UNIT;
@@ -14,8 +12,8 @@ public class DoubleSetting extends AbstractSetting {
     private final double min, max, increment;
     private final String unit;
 
-    public DoubleSetting(String name, AbstractSettingActivity activity, Visibility visibility, double value, double min, double max, double increment, String unit) {
-        super(name, activity, visibility);
+    public DoubleSetting(String name, Visibility visibility, double value, double min, double max, double increment, String unit) {
+        super(name, visibility);
         this.value = value;
         this.min = min;
         this.max = max;
@@ -23,8 +21,8 @@ public class DoubleSetting extends AbstractSetting {
         this.unit = unit;
     }
 
-    public DoubleSetting(String name, AbstractSettingActivity activity, double value, double min, double max, double increment, String unit) {
-        super(name, activity);
+    public DoubleSetting(String name, double value, double min, double max, double increment, String unit) {
+        super(name);
         this.value = value;
         this.min = min;
         this.max = max;
@@ -32,8 +30,8 @@ public class DoubleSetting extends AbstractSetting {
         this.unit = unit;
     }
 
-    public DoubleSetting(String name, AbstractSettingActivity activity, Visibility visibility, double value, double min, double max, double increment) {
-        super(name, activity, visibility);
+    public DoubleSetting(String name, Visibility visibility, double value, double min, double max, double increment) {
+        super(name, visibility);
         this.value = value;
         this.min = min;
         this.max = max;
@@ -41,8 +39,8 @@ public class DoubleSetting extends AbstractSetting {
         this.unit = NONE_UNIT;
     }
 
-    public DoubleSetting(String name, AbstractSettingActivity activity, double value, double min, double max, double increment) {
-        super(name, activity);
+    public DoubleSetting(String name, double value, double min, double max, double increment) {
+        super(name);
         this.value = value;
         this.min = min;
         this.max = max;
@@ -51,6 +49,10 @@ public class DoubleSetting extends AbstractSetting {
     }
 
     public void switchValue(boolean positive) {
+
+    }
+
+    public void setValue(double percent) {
 
     }
 

@@ -1,7 +1,5 @@
 package wtf.tena.stacker.setting;
 
-import wtf.tena.stacker.AbstractSettingActivity;
-
 public abstract class AbstractSetting {
 
     private static final Visibility YES;
@@ -16,16 +14,18 @@ public abstract class AbstractSetting {
     /*
     Do not let make instance from other classes
      */
-    protected AbstractSetting(String name, AbstractSettingActivity activity) {
+    protected AbstractSetting(String name) {
         this.name = name;
         this.visibility = YES;
-        activity.registerSetting(this);
     }
 
-    protected AbstractSetting(String name, AbstractSettingActivity activity, Visibility visibility) {
+    protected AbstractSetting(String name, Visibility visibility) {
         this.name = name;
         this.visibility = visibility;
-        activity.registerSetting(this);
+    }
+
+    public final String getName() {
+        return this.name;
     }
 
 }

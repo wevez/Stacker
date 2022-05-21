@@ -4,15 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import java.util.List;
-
-import wtf.tena.stacker.setting.AbstractSetting;
-
-public class ScrambleSetting extends AbstractSettingActivity {
-
-    public ScrambleSetting() {
-
-    }
+public class ScrambleSetting extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

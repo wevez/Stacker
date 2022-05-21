@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Java/Android/Stacker/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Java/Android/Stacker/app/src/main/res/layout/activity_theme_setting.xml" value="0.14130434782608695" />
+        <entry key="..\:/Java/Stacker/app/src/main/res/layout/activity_scramble_setting.xml" value="0.16354166666666667" />
         <entry key="..\:/Java/Stacker/app/src/main/res/layout/activity_selection_theme.xml" value="0.1" />
-        <entry key="..\:/Java/Stacker/app/src/main/res/layout/activity_target_setting.xml" value="0.1" />
+        <entry key="..\:/Java/Stacker/app/src/main/res/layout/activity_target_setting.xml" value="0.18" />
+        <entry key="..\:/Java/Stacker/app/src/main/res/layout/activity_target_theme.xml" value="0.16354166666666667" />
         <entry key="..\:/Java/Stacker/app/src/main/res/layout/activity_theme_setting.xml" value="0.1" />
       </map>
     </option>

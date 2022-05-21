@@ -1,20 +1,18 @@
 package wtf.tena.stacker.setting;
 
-import wtf.tena.stacker.AbstractSettingActivity;
-
 public class ModeSetting extends AbstractSetting {
 
     private String value;
     private final String[] option;
 
-    public ModeSetting(String name, AbstractSettingActivity activity, Visibility visibility, String... option) {
-        super(name, activity, visibility);
+    public ModeSetting(String name, Visibility visibility, String... option) {
+        super(name, visibility);
         this.value = option[0];
         this.option = option;
     }
 
-    public ModeSetting(String name, AbstractSettingActivity activity, String... option) {
-        super(name, activity);
+    public ModeSetting(String name, String... option) {
+        super(name);
         this.value = option[0];
         this.option = option;
     }
