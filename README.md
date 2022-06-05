@@ -1,15 +1,5 @@
 # Stacker
 単語帳アプリ
-# DEMO
-# Features
-# Requirement
-+JVM(1.8 or later)
-+Android apk
-# Installation
-# Usage
-# Note
-# Author
-+weve
-+weve#0898
-# License
-"Stacjer" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License)
+本当はSNSみたいにしたかったけど自分の技術不足で無理っぽいから一旦形にしました。
+# Instlation
+- Download it and open with Android Studio.
